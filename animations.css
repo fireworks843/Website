@@ -42,7 +42,7 @@
   padding-top: 20px;
   display: none; /* Hide the sidebar initially */
   opacity: 0; /* Start with invisible sidebar */
-  transition: opacity 0.5s; /* Smooth transition for fade-in */
+  transition: opacity 3s; /* Smooth transition for fade-in */
 }
 
 .sidenav a {
