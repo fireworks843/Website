@@ -1,4 +1,4 @@
-.splash{
+.splash {
   cursor: pointer;
   position: fixed;
   top: 50%;
@@ -8,6 +8,10 @@
   transform: translate(-50%, -50%);
   background-color: rgba(255,255,255);
   transition: all ease-in-out 500ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .hidden{
   transition: 0.5s;
