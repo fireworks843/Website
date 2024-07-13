@@ -3,6 +3,15 @@
 <head>
 <title>Sample Title</title>
 <link rel="stylesheet" href="animations.css">
+<style>
+  .sidenav {
+    display: none; /* Hide the sidebar initially */
+  }
+  
+  .show-sidebar {
+    display: block; /* Show the sidebar */
+  }
+</style>
 </head>
 
 <body>
@@ -26,7 +35,20 @@
   <!-- content here -->
 </div>
  
-<script src="script.js"></script>
- 
+<script>
+// JavaScript to handle the splash screen and sidebar visibility
+
+// Function to hide the splash screen and show the sidebar
+function showSidebar() {
+  document.querySelector('.sidenav').classList.add('show-sidebar');
+  document.querySelector('.splash').classList.add('hidden'); // Assuming you want to hide the splash screen
+}
+
+// Event listener for splash screen click
+document.querySelector('.splash').addEventListener('click', function() {
+  setTimeout(showSidebar, 500); // Adjust the timeout as needed
+});
+</script>
+
 </body>
 </html>
