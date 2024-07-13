@@ -16,6 +16,9 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
+}
+
+.fade-out {
   animation: fadeOut 1s forwards;
 }
 
