@@ -38,6 +38,10 @@
 }
 .splash img {
   display: block;
-  margin: 0 auto;
+  margin-bottom: 20px; /* Add some space between the image and the text */
+
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
