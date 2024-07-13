@@ -83,3 +83,14 @@ body, html {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/* Add this to your CSS file thank you chat gpt*/
+
+.sidenav {
+  display: none; /* Hide the sidebar initially */
+}
+
+/* Add a class to show the sidebar */
+.show-sidebar {
+  display: block; /* Show the sidebar */
+}
