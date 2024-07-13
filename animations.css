@@ -1,31 +1,84 @@
+/* s/o chatgpt for making my spaghetti code readable */
+
+/* Splash Screen */
 .splash {
   cursor: pointer;
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255);
-  transition: all ease-in-out 500ms;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; 
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  padding: 20px;
+  animation: fadeOut 1s forwards;
 }
 
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* Sidebar */
+.sidenav {
+  height: 100%; /* Full-height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  display: none; /* Hide the sidebar initially */
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.show-sidebar {
+  display: block; /* Show the sidebar */
+}
+
+/* Main Content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* Responsive Design for Small Screens */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* Hidden Class */
 .hidden {
   transition: 0.5s;
   display: none;
 }
 
+/* Splash Header */
 .splash-header {
   height: 90%;
   color: black;
@@ -42,55 +95,8 @@
   margin-bottom: 20px; /* Add some space between the image and the text */
 }
 
+/* Body and HTML */
 body, html {
   height: 100%;
   margin: 0;
-}
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-/* Add this to your CSS file thank you chat gpt*/
-
-.sidenav {
-  display: none; /* Hide the sidebar initially */
-}
-
-/* Add a class to show the sidebar */
-.show-sidebar {
-  display: block; /* Show the sidebar */
 }
