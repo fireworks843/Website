@@ -11,7 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; 
+  padding: 20px;
 }
 .hidden{
   transition: 0.5s;
@@ -25,11 +26,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px; /* Add some space between the image and the text */
 }
-/*
 .splash img {
   display: block;
   margin: 0 auto;
 }
-*/
 
