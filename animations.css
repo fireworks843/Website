@@ -19,12 +19,35 @@
 /* test */
 
 #links {
-  justify-content: center;
-  text-align: center;
-  top:70vh;
-  transform:translateY(-100%);
-  width:100%;
+  text-decoration: none;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-animation-name: popout_links;
+          animation-name: popout_links;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+.fab {
+  font-size: 10em;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+  
 
+}
 }
 
 .return{
