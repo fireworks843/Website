@@ -44,8 +44,11 @@
 .fab {
   font-size: 10em;
   text-decoration: none;
+  color: white;
   margin-right: 50px;
   margin-left: 50px;
+  transition: 0.3s;
+
 }
   
 
