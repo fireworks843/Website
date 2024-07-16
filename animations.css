@@ -21,7 +21,9 @@
 #links {
   justify-content: center;
   text-align: center;
-
+  top:70vh;
+  transform:translateY(-100%);
+  width:100%;
 
 }
 
