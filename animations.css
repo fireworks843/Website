@@ -19,6 +19,8 @@
 /* test */
 
 #links {
+  top:70vh;
+  transform:translateY(-100%);
   text-decoration: none;
   margin-top: 2rem;
   display: -webkit-box;
@@ -42,11 +44,11 @@
 }
 
 .fab {
-  font-size: 10em;
+  font-size: 5em;
   text-decoration: none;
   color: black;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
   transition: 0.3s;
 
 }
