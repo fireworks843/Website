@@ -7,3 +7,8 @@ splashScreen.addEventListener('click',()=>{
     splashScreen.classList.add('hidden')
   },610)
 })
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
