@@ -39,6 +39,8 @@
           animation-duration: 3s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
+}
+
 .fab {
   font-size: 10em;
   text-decoration: none;
@@ -47,8 +49,6 @@
 }
   
 
-}
-}
 
 .return{
   position:absolute;
