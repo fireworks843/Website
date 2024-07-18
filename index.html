@@ -40,6 +40,15 @@ function showSidebar() {
   void sidenav.offsetWidth;
 }
 
+// Function to show the main text
+function showMain() {
+  const main = document.querySelector('.main');
+  sidenav.classList.add('show-main');
+  // Trigger a reflow to restart the CSS animation
+  void main.offsetWidth;
+}
+
+  
 // Event listener for splash screen click
 document.querySelector('.splash').addEventListener('click', function() {
   const splash = document.querySelector('.splash');
@@ -48,6 +57,8 @@ document.querySelector('.splash').addEventListener('click', function() {
   // Show sidebar after animation is complete
   splash.addEventListener('animationend', function() {
     showSidebar();
+    showMain();
+
   });
 });
 </script>
