@@ -64,7 +64,7 @@
 
 
 .fade-out {
-  animation: fadeOut 1s forwards;
+  animation: fadeOut 5s forwards;
 }
 
 @keyframes fadeOut {
