@@ -16,6 +16,11 @@
   padding: 20px;
 }
 
+.main{
+ transform: translateX(-100%); /* Initially hide the sidebar off-screen */
+transition: transform 0.3s ease; /* Transition for the slide effect */
+}
+
 /* test */
 
 #links {
