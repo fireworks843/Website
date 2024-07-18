@@ -122,6 +122,10 @@
   transform: translateX(0); /* Slide the sidebar into view */
 }
 
+.show-main {
+  opacity: 1; /* Make sidebar visible */
+}
+
 /* Main Content */
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
