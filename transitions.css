@@ -5,6 +5,6 @@
 
 }
 .showcase:hover {
-      transition: 500ms linear;
-      transform: scale(1.5); 
+      transition: 100ms linear;
+      transform: scale(1.2); 
  }
