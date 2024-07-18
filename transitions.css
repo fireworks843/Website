@@ -1,6 +1,13 @@
 .showcase{
-      width: 300px;
+      width: 100px;
+      height: 100px;
+      margin: 20px auto;
+
+}
+.showcase:hover {
+      width: 150px;
       height: 150px;
       margin: 20px auto;
       transition: 500ms linear; 
     }
+}
