@@ -7,6 +7,4 @@
 .showcase:hover {
       transition: 500ms linear;
       transform: scale(1.5); 
-
-    }
-}
+ }
