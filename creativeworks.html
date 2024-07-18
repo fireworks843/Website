@@ -12,6 +12,18 @@
   <a href="Contact.html">Contact</a>
 </div>
 
+  <script>
+// JavaScript to handle the splash screen and sidebar visibility
+
+// Function to show the sidebar
+function showSidebar() {
+  const sidenav = document.querySelector('.sidenav');
+  sidenav.classList.add('show-sidebar');
+  // Trigger a reflow to restart the CSS animation
+  void sidenav.offsetWidth;
+}
+  </script>
+
 <!-- Page content -->
   
 </body>
