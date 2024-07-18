@@ -112,13 +112,14 @@
 }
 
 .show-main {
-   animation: fadeIn 3s;
+ animation: fadeIn 3s;
 }
 
 /* Main Content */
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
+  transition: .5s;
 }
 
 /* Responsive Design for Small Screens */
