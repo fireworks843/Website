@@ -144,7 +144,7 @@
 
 /* Hidden Class */
 .hidden {
-  transition: 5s;
+  transition: .5s;
   display: none;
 }
 
