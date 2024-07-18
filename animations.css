@@ -16,10 +16,16 @@
   padding: 20px;
 }
 
+
+/* make text fade in main page */
 .main{
- transform: translateX(-100%); /* Initially hide the sidebar off-screen */
-transition: transform 0.3s ease; /* Transition for the slide effect */
+   animation: fadeIn 5s;
 }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 /* test */
 
