@@ -112,6 +112,7 @@
 }
 
 .show-main {
+  transition: 3s;
  animation: fadeIn 3s;
 }
 
@@ -119,7 +120,7 @@
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
-  transition: .5s;
+  transition: 3s;
 }
 
 /* Responsive Design for Small Screens */
