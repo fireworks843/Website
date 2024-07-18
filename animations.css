@@ -92,6 +92,22 @@
   display: block; /* Ensure the sidebar is in the document flow */
   opacity: 1; /* Ensure the sidebar is visible */
 }
+.sidenav2 {
+  height: 100%; /* Full-height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+ /*  transform: translateX(-100%); 
+  transition: transform 0.3s ease; 
+  display: block;
+  opacity: 1; */
+}
+
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
