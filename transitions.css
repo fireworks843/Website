@@ -5,9 +5,8 @@
 
 }
 .showcase:hover {
-      width: 150px;
-      height: 150px;
-      margin: 20px auto;
-      transition: 500ms linear; 
+      transition: 500ms linear;
+      transform: scale(1.5); 
+
     }
 }
