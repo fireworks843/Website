@@ -127,6 +127,26 @@
   transform: translateX(0); /* Slide the sidebar into view */
 }
 
+
+/* sidenav2 copied from 1 */
+.sidenav2 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav2 a:hover {
+  color: #f1f1f1;
+}
+
+.show-sidebar {
+  display: block; /* Show the sidebar */
+  opacity: 1; /* Make sidebar visible */
+  transform: translateX(0); /* Slide the sidebar into view */
+}
+
 .show-main {
   transition-delay: 2s;
   animation: fadeIn 3s;
