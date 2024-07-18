@@ -112,8 +112,8 @@
 }
 
 .show-main {
-  transition: 3s;
- animation: fadeIn 3s;
+transition: transform 1s;
+animation: fadeIn 3s;
 }
 
 /* Main Content */
